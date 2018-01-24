@@ -1,0 +1,64 @@
+* {
+    background-color: #ffdce3;
+}
+
+h1 {
+    font-family: "Sacramento", Arial, Helvetica, sans-serif;
+    color: #2aaadb;
+    font-size: 48px;
+    text-align: center;
+}
+
+#salmon {
+    display: block;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+#intro-promo {
+    display: block;
+    text-align: center;
+    font-family: "Abel", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #2aaadb;
+    font-size: 32px;
+}
+
+img {
+    width: 300px;
+}
+#content {
+    overflow: auto;
+}
+#started {
+    font-family: "Sacramento", Arial, Helvetica, sans-serif;
+    color: #403737;
+    font-size: 200px;
+    text-align: center;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    color: #403737;
+    text-align: left;
+}
+.column3 {
+    margin-right: 0%
+}
+
+#location {
+    font-family: "Abel", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div > p {
+    color: #403737;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
