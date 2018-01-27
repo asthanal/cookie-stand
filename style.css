@@ -2,16 +2,6 @@
     background-color: #ffdce3;
 }
 
-#storeName {
-    text-align: center;
-    color:#7fa1db;
-}
-
-.stores {
-    text-align: center;
-    list-style-position:inside;
-}
-
 h1 {
     font-family: "Sacramento", Arial, Helvetica, sans-serif;
     color: #2aaadb;
@@ -37,11 +27,10 @@ ul {
     font-size: 1.2em;
     color: grey;
     text-decoration: none;
-
 }
 
 li {
-    list-style-type: none;
+    display: inline;
     margin: 0px 3px;
 }
 #salmon {
@@ -90,36 +79,18 @@ img {
     margin: 1%;   
 }
 
-#content {
-    overflow: auto;
-}
-
-#started {
-    font-family: "Sacramento", Arial, Helvetica, sans-serif;
-    color: #403737;
-    font-size: 200px;
+#locheader {
     text-align: center;
+    color: grey;
 }
 
-.column1, .column2, .column3 {
-    width: 31.3%;
-    float: left;
-    margin: 1%;
-    color: #403737;
-    text-align: left;
-}
-.column3 {
-    margin-right: 0%
-}
-
-#location {
-    font-family: "Abel", Arial, Helvetica, sans-serif;
-    font-size: 20px;
+#cookiestands {
+    width: 600px;
+    padding: 7px 10px 10 px 10px;
+    letter-spacing: 0.1em;
+    background-color: grey;
+    border-spacing: 5px 15px;
+    border-style: groove;
+    margin-left: 20%;
 }
 
-div > p {
-    color: #403737;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 1.4em;
-}
