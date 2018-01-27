@@ -1,0 +1,125 @@
+* {
+    background-color: #ffdce3;
+}
+
+#storeName {
+    text-align: center;
+    color:#7fa1db;
+}
+
+.stores {
+    text-align: center;
+    list-style-position:inside;
+}
+
+h1 {
+    font-family: "Sacramento", Arial, Helvetica, sans-serif;
+    color: #2aaadb;
+    font-size: 56px;
+    text-align: center;
+}
+
+#salmon-id {
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px auto 10px auto;
+  padding: 2-px;
+  border: 4px double #000;
+  background-color: #ffffff;
+}
+ul {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-size: 1.2em;
+    color: grey;
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 3px;
+}
+#salmon {
+    display: block;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+#intro-promo {
+    display: block;
+    text-align: center;
+    font-family: "Abel", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #726464;
+    font-size: 28px;
+}
+
+#intro{
+    background-color: #726646;
+    color: #efefef;
+    line-height: 1.4em;
+    font-size: 24px;
+}
+
+#sale {
+    font-family: "Milonga", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #df34b5;
+}
+
+#products {
+    overflow: auto;
+}
+
+.product1, .product2, .product3 {
+    font-family: "Milonga", Arial, Helvetica, sans-serif;
+    background-color: #bcedee;
+    text-align: center;
+    width: 31.3%;
+    float: left;
+    margin: 1%;   
+}
+
+#content {
+    overflow: auto;
+}
+
+#started {
+    font-family: "Sacramento", Arial, Helvetica, sans-serif;
+    color: #403737;
+    font-size: 200px;
+    text-align: center;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    color: #403737;
+    text-align: left;
+}
+.column3 {
+    margin-right: 0%
+}
+
+#location {
+    font-family: "Abel", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div > p {
+    color: #403737;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
