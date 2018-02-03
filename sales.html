@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Pat's Salmon Cookie Sales</title> 
-    <link rel="stylesheet" type="text/css" href="style.css" /> 
+  <meta charset="utf-8" />
+  <title>Pat's Sales Data</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <h2 id="storeName">Pat's Salmon Cookie Sales</h2>
-    <div class="stores">
-        <h3 id="fnp"></h3>
-        <ul id="fnp-list"></ul>
-    </div>
-   <div class="stores">
-        <h3 id="seatac"></h3>
-        <ul id="seatac-list"></ul>
-   </div>
-   <div class="stores">
-        <h3 id="seacenter"></h3>
-        <ul id="seacenter-list"></ul>
-   </div>
-    <div class="stores">
-        <h3 id="caphill"></h3>
-        <ul id="caphill-list"></ul>
-   </div>
-   <div class="stores">
-        <h3 id="alk"></h3>
-        <ul id="alk-list"></ul>
-   </div>
+    <h3 id="home"><a href="index.html">Go Back to Pat's Home Page</a></h2>
+    <form id="store-form">
+        <fieldset>
+          <legend><h3 id="add">Add A Store Location</h3></legend>
+          <label for="storename">Name of Location:</label>
+          <input name="storename" type="text"/>
+          <br><br>
+          <label for="mincust">Minimum Customer per Location:</label>
+          <input name="mincust" type="text"/>
+          <br><br>
+          <label for="maxcust">Maximum Customer per Location:</label>
+          <input name="maxcust" type="text"/>
+          <br><br>
+          <label for="avgcook">Average Cookies Sold per Customer:</label>
+          <input name="avgcook" type="text"/>
+          <br><br>
+          <button type="submit">Create a New Store</button>
+        </fieldset>
+    </form>
+    <h3 id="intro">Pat's Cookie Sales Per Store</h3>
+    <table id="cookiestands"></table>
     <script src="app.js"></script>
 </body>
 </html>
