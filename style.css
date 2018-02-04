@@ -1,4 +1,8 @@
-#header {
+body {
+    background-color:#efefef;
+}
+
+ #header {
     background-color: #efefef;
 }
 
@@ -6,6 +10,15 @@
     font-family: "Milonga", Arial, Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
+    color: #631919;
+}
+
+img.family {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 400px;
 }
 
 #content {
@@ -14,7 +27,7 @@
 }
 
 #nav {
-    background-color: #be1e2d;  
+    background-color: #a9c9ec;  
     margin: 1%;
     padding: 0.5em 0;
     text-align: center;
@@ -22,8 +35,9 @@
 }
 
 #feature {
+    padding: 10px 5px;
     margin: 1%;
-    background-color: #fbab40;
+    background-color: #c3996b;
 }
 
 img.salmon{
@@ -33,100 +47,99 @@ img.salmon{
     margin-right: 15px;
 }
 
+#storelocs {
+    background-color: #efefef;
+}
+#storyhead {
+    text-align: center;
+    color: #96be8d;
+    font-family: "Milonga", Arial, Helvetica, sans-serif;
+}
+
+#story {
+    font-family: "Abel", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #a9d69f;
+    display: inline;
+}
+
+img.fish {
+    float: left;
+    margin-right: 15px;
+    height: 170px;
+}
+
+.storeshours {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#stohours {
+    width: 65%;
+    color: white;
+    font-size: 18px;
+    background-color: #bad3ef;
+    margin: auto;
+}
+
+.home-td {
+    text-align: center;
+    width: 50%;
+}
+
+#allstores {
+    text-align: center;  
+    color: #6aa2de;
+    font-family: "Milonga", Arial, Helvetica, sans-serif;
+}
+
 div span {
-    font-family: "Flamenco", Arial, Helvetica, sans-serif;
+    font-family: "Milonga", Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 32px;
     line-height: 1.4em;
-    color: #755b40;
+    color: #cbdef3;
     padding-top: 20px;
 }
 
 #slogan2{
-    font-size: 24px;
-    font-family: "Milonga", Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-family: "Flamenco", Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white ;
+    line-height: 1em;
 }
 
-#copyright {
+#contactus {
     margin: 1%;
-}
-
-.product1, .product2, .product3 {
-    width:31.3%;
-    float: left;
-    margin: 1%;
-    text-align: center;
-    background-color: #d86f05;
-}
-
-.product3{
-    margin-right: 0%;
-}
-
-li {
-    display: inline;
-    padding: 0.5em;  
-}
-
-#sale {
-    font-family: "Abel", Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #dd4c2f;
-}
-
-img.tshirt {
-    text-align: center;
-    height: 140px;
-    margin-right: 15px;
-    vertical-align: text-top; 
-    padding-top: 8px;
-    padding-bottom: 3px;
-}
-
-img.mug {
-    text-align: center;
-    height: 140px;
-    margin-right: 15px;
-    vertical-align: text-top; 
-    padding-top: 8px;
-    padding-bottom: 3px;
-}
-    
-img.napkins {
-    text-align: center;
-    height: 140px;
-    margin-right: 15px;  
-    vertical-align: text-top; 
-    padding-top: 8px;
-    padding-bottom: 3px;
 }
 
 #footer {
     background-color: #efefef;
 }
 
-#copyright {
+#contactus {
     background-color: #c3996b;
     padding: 0.5em 0;
     color:black;
     font-weight: bold;
 }
 
+#contact {
+    font-family: "Milonga", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 15px;
+    text-align: center;
+}
+
 #feature, .article {
-    height: 10em;
+    /* height: 10em; */
     margin-bottom: 1em; 
 }
 
 #home {
-    text-align: center;
-}
-/*
-#shopname {
-    color: #d86f05;
     text-align: center;
 }
 
@@ -142,7 +155,7 @@ img.napkins {
 }
 
 ul {
-    width: 570px;
+    width: 750px;
     padding: 15px;
     margin: 0px auto 0px auto;
     border-top: 2px solid #000;
@@ -150,7 +163,7 @@ ul {
     text-align: center;
     font-size: 1.2em;
     color: black;  
-    background-color: #fbab40;
+    background-color: #c7e3b1;
 }
 
 li {
@@ -210,70 +223,4 @@ p#intro{
     color: #c3996b;;
     font-size:18px;
     font-weight: bold;
-} */
-
-#store-form{
-    font-family: Helvetica;
-    color: #4e3d2a;
-    background-color: #fbab40;
-    text-align: left;
-    margin-left: 32%;
-    margin-right: 35%;
-}
-
-#add{
-    font-weight: bold;
-    color: #4e3d2a;
-    font-family: Helvetica;
-}
-
-#intro {
-    color: white;
-    background-color: #c3996b;
-    line-height: 1.2em;
-    font-size: 24px;
-    text-align: left;
-    margin-left: 34%;
-    margin-right: 41%;
-    padding: 5px 5px;
-    font-family: Helvetica;
-}
-
-#cookiestands {
-    width: 600px;
-    padding: 15px 15px 15px 15px;
-    border-spacing: 2px 2px;
-    border-style: groove;
-    margin-left: 20%;
-    letter-spacing: 0.1em;
-    background-color: #be1e2d;
-    color: white;
-    font-family: Helvetica;
-}
-    tr:first-child {
-        background-color: #be1e2d;
-        height: 40px;
-        text-align: center;
-        font-family: Helvetica;
-    }
-
-    tr:nth-child(even) {
-        background-color: #be1e2d;
-        height: 40px;
-        text-align: center;
-        font-family: Helvetica;
-    }
-
-    tr:nth-child(odd) {
-        background-color: #be1e2d;
-        height: 40px;
-        text-align: center;
-        font-family: Helvetica;
-    }
-
-    tr:last-child {
-        background-color: #be1e2d;
-        height: 40px;
-        text-align: center;
-        font-family: Helvetica;
-    }
+}  
