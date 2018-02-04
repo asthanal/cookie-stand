@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
     <meta charset="utf-8" />
     <title>Pat's Cookie Shop</title>
     <link rel="stylesheet" type="text/css" href="style.css" />  
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Milonga|Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Milonga|Open+Sans+Condensed:300" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"/>
 </head>
 <body> 
     <div id="header">
@@ -14,36 +14,79 @@
         <div id ="nav">
             <ul>
                 <li><a href="#" class = "on">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Locations</a></li>
+                <li><a href="#storyhead">About Us</a></li>
+                <li><a href="#allstores">Locations</a></li> 
+                <li><a href="merchandise.html">Merchandise</a></li>
                 <!--Link to Pat's Sales Page for all store locations -->
                 <li><a href="sales.html">Sales</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>    
     </div>
+
     <div id="content">
         <div id="feature">
             <img src="images/salmon.png" class="salmon" alt="image of salmon"/><span class = "slogan">Beat the February Blues with our Famous Salmon Cookies!</span>
             <p id="slogan2">Made using Washington's local Salmon, baked and grounded to perfection, mixed with cake flour, these salmon cookies are perfectly soft yet crisp around the edges to make you feel pampered at home!</p>
         </div>
-        <p id="sale">On Popular Demand ~ Other Salmon Products!</p>
-            <div class="article product1">     
+        <img src="images/family.jpg" class="family" alt="image of family"/>
+       <!--CONTENT <p id="sale">On Popular Demand ~ Other Salmon Products!</p>
+            <div class="article product1">  CONTENT -->
                 <!--image courtesy of: https://www.zazzle.com/jumping_salmon_t_shirt-235490763640834824-->
-                <img src = "images/salmon_t_shirt.jpg" class="tshirt" alt="image of salmon t-shirt" />Salmon T-Shirt
+             <!--CONTENT <img src = "images/salmon_t_shirt.jpg" class="tshirt" alt="image of salmon t-shirt" />Salmon T-Shirt
             </div>
-            <div class="article product2">
+            <div class="article product2">  CONTENT -->
                 <!--image courtesy of: https://www.jeffcurrier.com/product/chinook-king-salmon-coffee-mug-jeff-currier/-->
-                <img src = "images/salmon-coffee-mug.jpg" class ="mug" alt="image of salmon coffee mug" />Salmon Coffee Mug
+          <!--CONTENT       <img src = "images/salmon-coffee-mug.jpg" class ="mug" alt="image of salmon coffee mug" />Salmon Coffee Mug
             </div>
-            <div class="article product3">
+            <div class="article product3">  CONTENT -->
                 <!--image courtesy of: https://www.zazzle.com/colorful_vintage_salmon_illustration_paper_napkin-256240764635934889-->
-                <img src = "images/salmon_paper_napkin.jpg" class= "napkins" alt="image of salmon paper napkins" />Salmon Paper Napkins
-            </div>
+       <!--CONTENT         <img src = "images/salmon_paper_napkin.jpg" class= "napkins" alt="image of salmon paper napkins" />Salmon Paper Napkins
+            </div> CONTENT -->
+    </div> 
+    <div id="storelocs">
+        <h1 id="storyhead">Our Story - How it all began!</h1>
+        <p id="story"> My grandfather Pat Sr. challenged my grandmother Patricia to make something sweet with salmon since it was so abundant in Washinton. <img src = "images/fish.jpg" class="fish" alt="image of salmon cookies" /> Patricia took up the challenge and surprised my grandfather with the first batch of Pat's Salmon Cookies! Needless to say that my grandfather Pat Sr. loved it and told her to start selling the cookies in the neighborhood. Through word of mouth it became very popular and that is how Pat's Cookie Shop was born in 1938.All these years it has grown in popularity and has become a traditional symbol of Seattle. Today we have many more stores.</p>
+
+        <div class="storeshours">
+            <h2 id="allstores">Our Stores and Hours</h2>
+            <table id="stohours">
+                <thead>
+                    <tr>
+                        <th class="home-td">STORES</th>
+                        <th class="home-td">HOURS</th>
+                    </tr>
+                    <tr>
+                        <td class="home-td">First and Pike</td>
+                        <td class="home-td">6am-8pm</td>
+                    </tr>
+                    <tr>
+                        <td class="home-td">SeaTac Airport</td>
+                        <td class="home-td">6am-8pm</td>
+                    </tr>
+                    <tr>
+                        <td class="home-td">Seattle Center</td>
+                        <td class="home-td">6am-8pm</td>
+                    </tr>
+                    <tr>
+                        <td class="home-td">Capitol Hill</td>
+                        <td class="home-td">6am-8pm</td>
+                    </tr>
+                    <tr>
+                        <td class="home-td">Alki</td>
+                        <td class="home-td">6am-8pm</td>
+                    </tr>
+                </thead>
+            </table>
+    </div>
+        
     </div>
     <div id="footer">
-        <div id="copyright">
-            <p>&copy: Copyright 2018</p>
+        <div id="contactus">
+            <p id="contact">CONTACT US<br>
+                Email: <a href="mailto:pat@patsalmon.org">pat@patsalmon.org</a><br>
+                Phone: 425-425-000
+            </p>
         </div>
     </div>
 </body>

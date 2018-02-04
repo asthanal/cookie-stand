@@ -1,0 +1,76 @@
+body {
+    background-color:#efefef;
+}
+
+#store-form{
+    font-family: Helvetica;
+    color: #4e3d2a;
+    text-align: left;
+    margin-left: 32%;
+    margin-right: 35%;
+}
+
+fieldset {
+    background-color: #bceeb1;
+}
+
+#add{
+    font-weight: bold;
+    color: #4e3d2a;
+    font-family: Helvetica;
+}
+
+#home {
+    text-align: center;
+}
+
+#intro {
+    color: white;
+    background-color: #c3996b;
+    line-height: 1.2em;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 34%;
+    margin-right: 41%;
+    padding: 5px 5px;
+    font-family: Helvetica;
+}
+
+#cookiestands {
+    width: 600px;
+    padding: 15px 15px 15px 15px;
+    border-spacing: 2px 2px;
+    border-style: groove;
+    margin-left: 20%;
+    letter-spacing: 0.1em;
+    background-color:#a9c9ec;
+    color: white;
+    font-family: Helvetica;
+}
+    tr:first-child {
+        background-color:#a9c9ec;
+        height: 40px;
+        text-align: center;
+        font-family: Helvetica;
+    }
+
+    tr:nth-child(even) {
+        background-color:#a9c9ec;
+        height: 40px;
+        text-align: center;
+        font-family: Helvetica;
+    }
+
+    tr:nth-child(odd) {
+        background-color:#a9c9ec;
+        height: 40px;
+        text-align: center;
+        font-family: Helvetica;
+    }
+
+    tr:last-child {
+        background-color:#a9c9ec;
+        height: 40px;
+        text-align: center;
+        font-family: Helvetica;
+    } 
