@@ -17,13 +17,13 @@
           <input name="storename" type="text"/>
           <br><br>
           <label for="mincust">Minimum Customer per Location:</label>
-          <input name="mincust" type="text"/>
+          <input name="mincust" type="number" min="0"/>
           <br><br>
           <label for="maxcust">Maximum Customer per Location:</label>
-          <input name="maxcust" type="text"/>
+          <input name="maxcust" type="number" min="0"/>
           <br><br>
           <label for="avgcook">Average Cookies Sold per Customer:</label>
-          <input name="avgcook" type="text"/>
+          <input name="avgcook" type="number" min="0" step="any"/>
           <br><br>
           <button type="submit">Create a New Store</button>
         </fieldset>
